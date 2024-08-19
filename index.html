@@ -1,0 +1,183 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobertoGarcíaNieto47576</title>
+    <style>
+        body{
+            padding: 0;
+        }
+        header{
+            background-color: rgb(129, 186, 236);
+            padding: 10px;
+        }
+        footer{
+            background-color: rgb(174, 174, 250);
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        section{
+            border: 1px solid red;
+            padding: 8px;
+        }
+        table{
+            width: 60%;
+            border-collapse: collapse;
+        }
+        th{
+            border-style :double;
+            text-align: center;
+            background-color: aqua;
+        }
+        td{
+            border-style :double;
+            text-align: center;
+        }
+        tfoot{
+            background-color: rgb(156, 187, 255);
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>1. ESTRUCTURA BÁSICA DEL DOCUMENTO HTML</h1>
+        <p>Este documento .html contendrá todos los contenidos básicos de la programación en dicho lenguaje</p>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="enlace_2">2. Encabezados y Propiedades de Texto</h2>
+            <h2><i>Este es un texto en tamaño h2 y en cursiva</i></h2>
+            <h3><u>Este es un texto en tamaño h3 y subrayado</u></h3>
+            <h4><strike>Este es un texto en tamaño h4 y tachado</strike></h4>
+            <h5>Este es un texto en tamaño h5</h5>
+            <h6>Este es un texto en tamaño h6</h6>
+        </section>
+    
+        <section>
+            <h2 id="enlace_3">3. Divisiones y Agrupación de contenido</h2>
+            <section>
+                <h3>Sección 1</h3>
+                <p>Contenido referido a la sección 1</p>
+            </section>
+            <section>
+                <h3>Sección 2</h3>
+                <p>Contenido referido a la sección 2</p>
+            </section>
+        </section>
+    
+        <section>
+            <h2>4. Enlaces y Listas</h2>
+            <p>Hacé click en el siguiente enlace para dirigirte a <a href="https://www.google.com" target="_blank"> Google</a></p>
+            
+            <h3>Enlaces Internos</h3>
+                <ul>
+                    <li><a href="#enlace_2">Encabezados y Propiedades de Texto</a></li>
+                    <li><a href="#enlace_3">Divisiones y Agrupación de Contendio</a></li>
+                </ul>
+                <h3>Lista desordenada</h3>
+                <ul>
+                    <li>Primer elemento</li>
+                    <li>Segundo elemento</li>
+                </ul>
+                <h3>Lista ordenada</h3>
+                <ol>
+                    <li>Primer elemento</li>
+                    <li>Segundo elemento</li>
+                </ol>
+        </section>
+    
+        <section>
+            <h2>5. Elementos Multimedia</h2>
+            <div><h3>Video</h3>
+                <video
+                src="🇦🇷SOMOS TODOS MONTIEL⭐⭐⭐.mp4"
+                alt="Somos todos montiel"
+                height="300 px"
+                controls
+                />
+            </div>
+            <div><h3>Imagen</h3>
+                <img
+                src="UTN.png"
+                alt="Logo Universidad Tecnológica Nacional"
+                height="150 px"
+                />
+            </div>
+            <div><h3>Audio</h3>
+                <audio
+                src="Y2meta.app - Himno nacional argentino subtitulado (320 kbps).mp3"
+                alt="Himno Nacional Argentino"
+                controls
+                />
+            </div>
+        </section>
+    
+        <section>
+            <h2>5. Tablas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>COLUMNA 1</th>
+                        <th>COLUMNA 2</th>
+                        <th>COLUMNA 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Valor 1.1</td>
+                        <td>Valor 1.2</td>
+                        <td>Valor 1.3</td>
+                    </tr>
+                    <tr>
+                        <td>Valor 2.1</td>
+                        <td>Valor 2.2</td>
+                        <td>Valor 2.3</td>
+                    </tr>
+                    <tr>
+                        <td>Valor 3.1</td>
+                        <td>Valor 3.2</td>
+                        <td>Valor 3.3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>TOTAL 1</td>
+                        <td>TOTAL 2</td>
+                        <td>TOTAL 3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    
+        <section>
+            <h2>6. Formularios</h2>
+            <form>
+                <div>
+                    <label>Nombre y Apellidos</label>
+                    <input type="text" placeholder="Ingrese nombre y apellidos" />
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="example@example.com"/>
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea placeholder="Mensaje"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>García Nieto Roberto - 47576</p>
+    </footer>
+    
+</body>
+</html>
